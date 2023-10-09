@@ -6,4 +6,56 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif ;
+    
+background: url(https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=876&q=80);
+background-size: cover;}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.clock{
+    display: flex;
+}
+
+.clock div{
+    margin: 5px;
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background: slateblue;
+    opacity: .8;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow:2px 2px 4px rgba(rgb(0, 0, 0), 0, 0,0.3 );
+
+
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgb(146, 16, 25);
+    opacity:0.8
+
+}
+.clock #ampm{
+height:30px ;
+width: 60px ;
+font-size: 20px ;
+background:green ;
+  position: absolute;
+ 
+
 }
